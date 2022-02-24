@@ -1,4 +1,4 @@
-# # # X-Ray-Disease-Detection
+# X-Ray-Disease-Detection
 
 This repositori contains all the code needed to train, evaluate and test a convolutional neural network combined with different types of data augmentation.
 
