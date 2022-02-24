@@ -1,0 +1,45 @@
+{
+    "NameEfficientB3": "efficientnet-b3",
+    "NameEfficientB2": "efficientnet-b2",
+    "NameEfficientB1": "efficientnet-b1",
+    "NameEfficientB0": "efficientnet-b0",
+    "weightsPathEfficient": "../../Weights",
+    "weightsPathDense": "../../Weights/Dense.pth",
+
+
+    "DATA_DIR" : "../../ChestRay/Images/images_jpg_400_2",
+    "TEST_IMAGE_LIST" : "../../ChestRay/test_list.txt",
+    "TRAIN_IMAGE_LIST" : "../../ChestRay/train_list.txt",
+    "VAL_IMAGE_LIST" : "../../ChestRay/val_list.txt",
+
+
+    "BATCH_SIZE_D" : 20,
+    "BATCH_SIZE_B0" : 30,
+    "BATCH_SIZE_B1" : 20,
+    "BATCH_SIZE_B2" : 16,
+    "BATCH_SIZE_B3" : 9,
+
+
+    "TEN_CROP_D" : 224,
+    "TEN_CROP_B0" : 224,
+    "TEN_CROP_B1" : 240,
+    "TEN_CROP_B2" : 260,
+    "TEN_CROP_B3" : 300,
+
+    "RESIZE_D" : 256,
+    "RESIZE_B0" : 256,
+    "RESIZE_B1" : 274,
+    "RESIZE_B2" : 297,
+    "RESIZE_B3" : 342,
+
+
+    "BETAS" : "0.9,0.999",
+    "LR": 0.00001,
+
+    "prob": 0.2,
+
+    "visualization_dataset_workers": 16,
+    "training_dataset_workers": 16,
+    "test_dataset_workers": 16,
+    "val_dataset_workers": 16
+}
