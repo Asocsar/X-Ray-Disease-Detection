@@ -1,0 +1,21 @@
+{
+    "weightsPath": "../../Weights/Dense.pth",
+    "DATA_DIR" : "../../ChestRay/Images/images",
+    "TEST_IMAGE_LIST" : "../../ChestRay/test_list.txt",
+    "TRAIN_IMAGE_LIST" : "../../ChestRay/train_list.txt",
+    "VAL_IMAGE_LIST" : "../../ChestRay/val_list.txt",
+    "RESULT_IMAGES" : "../../Result_Images/DenseNet",
+    "BATCH_SIZE" : 8,
+    "LR" : 0.004,
+    "BETAS" : "0.9,0.999",
+    "EPOCHS" : 30,
+
+    "PatiencePlateau": 1,
+    "num_gpu":4,
+
+
+    "visualization_dataset_workers": 8,
+    "training_dataset_workers": 8,
+    "test_dataset_workers": 8,
+    "val_dataset_workers": 8
+}
